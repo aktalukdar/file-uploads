@@ -60,10 +60,13 @@ npm install
 npx prisma migrate dev --name init
 ```
 
-## 🚦 Run the Server
+## 🚦 Run the Server & Worker
 
+- `npm start` — Starts the Express server (`src/index.js`)
+- `npm run worker` — Starts the background job worker (`src/jobs/worker.js`)
 ```bash
 npm start
+npm worker
 ```
 
 ---
